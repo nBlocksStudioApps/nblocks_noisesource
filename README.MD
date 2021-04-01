@@ -33,5 +33,7 @@ Based on standard C library rand(), has zero ‘DC component (offset value = z
 
 
 
-## Example:
+## Examples:
 [Ticker]-->[NoiseSource]-->[StringFormat]-->[StringSerial]
+
+[42D_KalmanSimple_test_FIRMWARE](https://github.com/nBlocksStudioApps/42D_KalmanSimple_test_FIRMWARE)
