@@ -3,10 +3,10 @@
 
 #include "nworkbench.h"
 
-class nBlock_NoiseSource public nBlockSimpleNode<1> {
+class nBlock_NoiseSource: public nBlockSimpleNode<0> {
 
 public:
-    nBlock_NoiseSource(float e_mea, float e_est, float q);
+    nBlock_NoiseSource(float min, float max, uint32_t seed);
     void triggerInput(nBlocks_Message message);
 	void endFrame(void);
     uint32_t newValueFLAG;
@@ -14,6 +14,11 @@ public:
 private:	
 	float  _input;
     float  _outvalue;
+    float _max;
+    float _min;
+    uint32_t _seed;
+    //srand _srand;
+    //rand() _rand;
 
 };
  
