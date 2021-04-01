@@ -1,4 +1,4 @@
-# [NoiseSource](https://github.com/nBlocksStudioNodes/nblocks_noisesource)
+# [NoiseSource](https://github.com/nBlocksStudioApps/nblocks_noisesource)
 
 
 Generates pseudorandom values to be used as noise signal
