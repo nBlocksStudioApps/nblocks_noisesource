@@ -3,7 +3,7 @@
 
 #include "nworkbench.h"
 
-class nBlock_NoiseSource: public nBlockSimpleNode<0> {
+class nBlock_NoiseSource: public nBlockSimpleNode<1> {
 
 public:
     nBlock_NoiseSource(float min, float max, uint32_t seed);
