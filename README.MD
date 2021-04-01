@@ -16,7 +16,7 @@ width = 450
 
  *  Category: Math
  *  HAL: No Hardware dependencies
- *  Status:  Node ready to test
+ *  Status:  Node tested with LPC1768
  *  Author: Nikolaos Chalikias
 
 ## Implementation details 
